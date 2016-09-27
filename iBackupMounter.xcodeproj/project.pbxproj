@@ -20,6 +20,7 @@
 		25CC300518FEB102005053AC /* iBackupMounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CC300418FEB102005053AC /* iBackupMounterTests.m */; };
 		25CC301218FEB885005053AC /* OSXFUSE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CC301118FEB885005053AC /* OSXFUSE.framework */; };
 		25CC301518FECBB5005053AC /* ABFileSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CC301418FECBB5005053AC /* ABFileSystem.m */; };
+		BFCFE4601D9A3D4B009F49A1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCFE45F1D9A3D4B009F49A1 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		25CC301118FEB885005053AC /* OSXFUSE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OSXFUSE.framework; sourceTree = "<group>"; };
 		25CC301318FECBB5005053AC /* ABFileSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABFileSystem.h; sourceTree = "<group>"; };
 		25CC301418FECBB5005053AC /* ABFileSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABFileSystem.m; sourceTree = "<group>"; };
+		BFCFE45F1D9A3D4B009F49A1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFCFE4601D9A3D4B009F49A1 /* libsqlite3.tbd in Frameworks */,
 				25CC301218FEB885005053AC /* OSXFUSE.framework in Frameworks */,
 				25CC2FDB18FEB102005053AC /* Cocoa.framework in Frameworks */,
 			);
@@ -101,6 +104,7 @@
 		25CC2FD918FEB102005053AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BFCFE45F1D9A3D4B009F49A1 /* libsqlite3.tbd */,
 				25CC301118FEB885005053AC /* OSXFUSE.framework */,
 				25CC2FDA18FEB102005053AC /* Cocoa.framework */,
 				25CC2FF918FEB102005053AC /* XCTest.framework */,
