@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>13C64</string>
+	<string>15G1004</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -11,30 +11,32 @@
 	<key>CFBundleGetInfoString</key>
 	<string>OSXFUSE Framework</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.github.osxfuse.framework</string>
+	<string>com.github.osxfuse.frameworks.OSXFUSE</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>OSXFUSE</string>
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.5.2</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string></string>
+	<string>3.5.2</string>
 	<key>DTCompiler</key>
-	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<string>4.2</string>
 	<key>DTPlatformBuild</key>
-	<string>5B1008</string>
+	<string>10M2518</string>
 	<key>DTPlatformVersion</key>
-	<string>GM</string>
+	<string>PG</string>
 	<key>DTSDKBuild</key>
-	<string>13C64</string>
+	<string>9L31a</string>
 	<key>DTSDKName</key>
-	<string>OSXFUSE</string>
+	<string>macosx10.5</string>
 	<key>DTXcode</key>
-	<string>0511</string>
+	<string>0400</string>
 	<key>DTXcodeBuild</key>
-	<string>5B1008</string>
+	<string>10M2518</string>
 </dict>
 </plist>
